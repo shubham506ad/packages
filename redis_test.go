@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
-	db "packages/dataAccess"
 	"testing"
 	"time"
+
+	db "github.com/shubham506ad/packages/dataAccess"
 )
 
 type RedisInsertDoc struct {

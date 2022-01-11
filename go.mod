@@ -1,4 +1,4 @@
-module packages
+module github.com/shubham506ad/packages
 
 go 1.17
 

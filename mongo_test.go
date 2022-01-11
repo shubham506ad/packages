@@ -2,9 +2,8 @@ package main
 
 import (
 	"context"
+	db "packages/dataAccess"
 	"testing"
-
-	db "github.com/shubham506ad/packages/dataAccess"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
